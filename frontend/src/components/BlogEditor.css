@@ -1,0 +1,39 @@
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.editor-title, .editor-content, .editor-tags {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+}
+.editor-content {
+  height: 150px;
+}
+.editor-buttons {
+  display: flex;
+  gap: 1rem;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+.btn.draft {
+  background-color: #6c757d;
+}
+.btn.publish {
+  background-color: #28a745;
+}

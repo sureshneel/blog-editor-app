@@ -1,0 +1,19 @@
+.bloglist-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.blog-item {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+.blog-item.draft a {
+  color: #6c757d;
+  text-decoration: none;
+}
+.blog-item.published strong {
+  color: #28a745;
+}
